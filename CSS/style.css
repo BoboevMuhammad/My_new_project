@@ -1,0 +1,518 @@
+.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 575px;
+  background-image: url("../Images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  height: 575px;
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__navbar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__text {
+  font-size: 27px;
+  margin-left: 10px;
+  color: rgb(235, 235, 235);
+  font-family: "Raleway", sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.first__header-text {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+.second__header-text {
+  font-size: 18px;
+  margin-top: 5px;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+
+.input {
+  width: 185px;
+  height: 27px;
+  border-style: none;
+  border-radius: 200px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.input::placeholder {
+  font-size: 10.4px;
+  color: rgb(116, 115, 115);
+  position: relative;
+  top: -3px;
+  left: 7px;
+}
+
+.button {
+  width: 100px;
+  height: 26px;
+  font-size: 10.4px;
+  border-style: none;
+  border-radius: 200px;
+  background-color: rgb(245, 93, 4);
+  color: rgb(247, 234, 234);
+  position: relative;
+  top: 22px;
+  left: 146px;
+}
+
+.section__1 {
+  width: 100%;
+  height: 398px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img {
+  width: 375px;
+  height: 280px;
+}
+
+.text {
+  line-height: 16.8px;
+  width: 460px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.text__main {
+  font-size: 19px;
+  font-family: "Poiret One", cursive;
+}
+.text__inside {
+  font-size: 13px;
+}
+
+.color__icon {
+  color: rgb(255, 115, 0);
+}
+
+.section__2 {
+  width: 100%;
+  height: 412px;
+  background-color: rgb(255, 246, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 230px;
+  height: 337px;
+  margin-right: 20px;
+  background-color: white;
+  position: relative;
+}
+
+.img {
+  width: 230px;
+  height: 155px;
+}
+
+.icon {
+  width: 39px;
+  height: 39px;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: absolute;
+  right: 91px;
+  top: 136px;
+}
+
+.name__of__the__topic {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 4px;
+  color: rgb(131, 12, 12);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.the__topic {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  padding-left: 11.5px;
+  padding-right: 11.5px;
+  line-height: 17px;
+  font-size: 12px;
+  color: rgb(138, 138, 135);
+}
+
+.section__3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.section__3__text {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 100;
+  position: relative;
+  top: 8px;
+}
+
+.line__section__3 {
+  display: flex;
+  justify-content: center;
+}
+
+.red__line__section__3 {
+  margin-top: 0;
+  width: 55px;
+  border: 1px solid red;
+}
+
+.FAQ__main__section {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
+  height: 50px;
+  border-bottom: 1px solid rgb(241, 241, 241);
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.first_text p {
+  color: #444;
+  font-size: 1.3em;
+}
+
+#after__click {
+  color: black;
+  position: absolute;
+}
+
+#click {
+  border: none;
+  padding: 10px 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-start;
+}
+
+.length1 {
+  height: 100px;
+}
+
+.second_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
+  height: 50px;
+  border-bottom: 1px solid rgb(241, 241, 241);
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.second_text p {
+  color: #444;
+  font-size: 1.3em;
+}
+
+.length2 {
+  height: 100px;
+}
+
+.third_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
+  height: 50px;
+  border-bottom: 1px solid rgb(241, 241, 241);
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.third_text p {
+  color: #444;
+  font-size: 1.3em;
+}
+
+.length3 {
+  height: 100px;
+}
+
+.fourth_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
+  height: 50px;
+  border-bottom: 1px solid rgb(241, 241, 241);
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.fourth_text p {
+  color: #444;
+  font-size: 1.3em;
+}
+
+.length4 {
+  height: 100px;
+}
+
+.fifth_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
+  height: 50px;
+  border-bottom: 1px solid rgb(241, 241, 241);
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.fifth_text p {
+  color: #444;
+  font-size: 1.3em;
+}
+
+.length5 {
+  height: 100px;
+}
+
+.sixth_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
+  height: 50px;
+  border-bottom: 1px solid rgb(241, 241, 241);
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.sixth_text p {
+  color: #444;
+  font-size: 1.3em;
+}
+
+.length6 {
+  height: 100px;
+}
+
+.section__4 {
+  width: 100%;
+  height: 396px;
+  background-color: rgb(255, 246, 239);
+}
+
+.information__and_about-youself {
+  height: 217px;
+  margin-top: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__text {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 100;
+  position: relative;
+  top: 48px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+}
+
+.red__line {
+  margin-top: 0;
+  width: 55px;
+  border: 1px solid red;
+  margin-top: 40px;
+}
+.information__about-corporation {
+  margin-top: 45px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+}
+.about-yourself {
+  position: relative;
+  right: 30px;
+}
+
+.text__section-4 {
+  font-size: 10px;
+}
+
+.icon__margin__and-color {
+  margin-right: 20px;
+  color: rgb(255, 115, 0);
+}
+
+.block__for-margin {
+  margin-bottom: 20px;
+}
+
+.block__for-icon {
+  display: flex;
+}
+
+.block__for-icon-1 {
+  display: flex;
+}
+
+.block__for-icon-2 {
+  display: flex;
+}
+
+.click {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(39, 18, 0);
+  border: 1px solid rgb(39, 18, 0);
+  border-radius: 50%;
+}
+
+.click__margin {
+  position: relative;
+  bottom: 1.5px;
+}
+
+.styling__link {
+  text-decoration: none;
+  color: black;
+}
+
+.third__button-icon {
+  position: relative;
+  bottom: 1px;
+}
+
+::placeholder {
+  font-size: 10.4px;
+  color: rgb(116, 115, 115);
+  position: relative;
+  top: -3px;
+  left: 7px;
+}
+
+.input__about-yourself {
+  width: 296px;
+  height: 23px;
+  border: 1px solid rgb(206, 204, 204);
+}
+
+.submit_the-info {
+  width: 100px;
+  height: 30px;
+  margin-left: 100px;
+  background-color: rgb(255, 115, 0);
+  font-size: 10.4px;
+  border-style: none;
+  color: rgb(226, 223, 223);
+  font-size: 12px;
+}
+
+.email__margin {
+  margin-top: 11px;
+}
+
+.subject__margin {
+  margin-top: 11px;
+}
+
+.info__margin {
+  border: 0.5px solid black;
+  margin-top: 11px;
+  width: 296px;
+  border: 1px solid rgb(206, 204, 204);
+  overflow: hidden;
+}
+
+.info__margin::placeholder {
+  font-size: 10.4px;
+  color: rgb(116, 115, 115);
+  position: relative;
+  top: 1px;
+  left: 7px;
+}
+
+.footer {
+  width: 100%;
+  height: 73px;
+  background-color: rgb(39, 18, 0);
+  color: rgb(223, 222, 222);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text__footer__number-1 {
+  margin-top: 20px;
+  margin-bottom: 6px;
+  font-size: 10px;
+}
+
+.text__footer__number-2 {
+  font-size: 9px;
+  margin-bottom: 20px;
+}
+
+.text__color__footer {
+  color: rgb(221, 100, 0);
+}
